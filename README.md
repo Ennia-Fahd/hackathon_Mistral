@@ -18,8 +18,8 @@ uvicorn main:app --reload --port 8000
 
 ### FRONTEND
 cd mistral-risk-copilot/frontend
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+python -m venv .venv \n
+.venv\Scripts\activate \n
+pip install -r requirements.txt \n
 
 streamlit run app.py
